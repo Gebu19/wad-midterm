@@ -36,6 +36,7 @@ function ItemManager () {
     const name = itemName.current.value.trim();
     const category = itemCategory.current.value;
     const price = itemPrice.current.value;
+
     let isDuplicate = false
     items.forEach((item)=>{
         if(item.name.toLowerCase() === name.toLowerCase() ){
@@ -73,7 +74,7 @@ function ItemManager () {
     setItems((prev)=> [...prev,newItem])
 
     setId((prev)=> prev+1)
-    itemName.current.value = ""
+    itemName.current.value = ''
     itemPrice.current.value = ''
     setErrorMsg('')
   }
