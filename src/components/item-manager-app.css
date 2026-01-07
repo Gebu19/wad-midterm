@@ -7,11 +7,13 @@
 .item-table {
   border-collapse: collapse;
   text-align: left;
+  
 }
 
 .item-table th,
 .item-table td {
   border-bottom: 1px solid black;
+  padding: 8px;
 }
 
 /* Header */

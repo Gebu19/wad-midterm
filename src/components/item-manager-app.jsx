@@ -120,6 +120,7 @@ function ItemManager () {
                 <td></td>
                 <td><input type="text" ref={itemName} required/></td>
                 <td><select ref={itemCategory}>
+                        <option value=""></option>
                         <option value="Stationary">Stationary</option>
                         <option value="Kitchenware">Kitchenware</option>
                         <option value="Appliance">Appliance</option>
